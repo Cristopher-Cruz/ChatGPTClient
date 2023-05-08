@@ -4,7 +4,7 @@ This is a cross-platform app that allows users to interact with OpenAI's ChatGPT
 
 ## SwiftUI
 
-The ChatGPT Client was built using SwiftUI, a modern and intuitive framework that allows developers to build dynamic and interactive user interfaces using a declarative approach. SwiftUI provides a set of common UI components that can be easily adapted to all Apple platforms, taking a more "platform-agnostic" approach as compared to UIKIT. In this project, views and models are shared across the targets efficiently, without the need for additional code, setup, or configuration.
+The ChatGPT Client was built using SwiftUI, a modern and intuitive framework that allows developers to build dynamic and interactive user interfaces using a declarative approach. SwiftUI provides a set of common UI components that can be easily adapted to all Apple platforms, taking a more "platform-agnostic" approach as compared to UIKIT. In this project, views and models are shared across the targets (iOS, macOS, watchOS) efficiently, without the need for additional code, setup, or configuration.
 
 ## Concurrency
 
