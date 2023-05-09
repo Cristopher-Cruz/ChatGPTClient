@@ -16,7 +16,7 @@ The ChatGPT Client relies heavily on the concurrency features introduced in Swif
 
 - [Global Actors:](https://github.com/apple/swift-evolution/blob/main/proposals/0316-global-actors.md) a concurrency mechanism that provides a structured and safe approach to managing concurrent access to shared mutable state. In the scope of this project, @MainActor is a significant feature of this mechanism, used to guarantee that all updates to the UI are executed on the main thread. This ensures smooth and responsive UI interactions, making @MainActor a critical component of the project's architecture.
 
-- [Task](https://github.com/apple/swift-evolution/blob/main/proposals/0304-structured-concurrency.md#tasks) This API provides a structured way to manage and coordinate asynchronous tasks, ensuring that they execute safely and predictably. In this project, Tasks are used for the execution of complex, multi-step operations and for error handling. 
+- [Task:](https://github.com/apple/swift-evolution/blob/main/proposals/0304-structured-concurrency.md#tasks) This API provides a structured way to manage and coordinate asynchronous tasks, ensuring that they execute safely and predictably. In this project, Tasks are used for the execution of complex, multi-step operations and for error handling. 
 
 
 ## API Request and JSON Response Handling
