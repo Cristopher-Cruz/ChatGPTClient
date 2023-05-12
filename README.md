@@ -3,8 +3,8 @@
 This is a cross-platform app that allows users to interact with OpenAI's ChatGPT model on iPhone, Mac, and Apple Watch devices. The app was built using the official ChatGPT API, which is powered by the GPT-3.5 Turbo model and the chat completions endpoint. You can find more information about these technologies in the official [documentation](https://openai.com/blog/introducing-chatgpt-and-whisper-apis).
 
 ## SwiftUI
-
-The ChatGPT Client was built using SwiftUI, a modern and intuitive framework that allows developers to build dynamic and interactive user interfaces using a declarative approach. SwiftUI provides a set of common UI components that can be easily adapted to all Apple platforms, taking a more "platform-agnostic" approach as compared to UIKIT. In this project, views and models are shared across the targets (iOS, macOS, watchOS) efficiently, without the need for additional code, setup, or configuration.
+In this project, views and models are shared across the targets (iOS, macOS, watchOS) efficiently, without the need for additional code, setup, or configuration thanks to SwiftUI.
+SwiftUI provides a set of common UI components that can be easily adapted to all Apple platforms, taking a more "platform-agnostic" approach as compared to UIKIT.
 
 ## Concurrency
 
